@@ -1,0 +1,43 @@
+.nav-list {
+  text-align: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.nav-list::-webkit-scrollbar {
+  display: none;
+}
+.nav-list-item {
+  display: inline-block;
+}
+.nav-list-item-link {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.image-menu {
+  position: relative;
+}
+
+.image-menu::after {
+  content: "";
+  background-image: url(../images/Vector.png);
+  width: 24px;
+  height: 15px;
+  position: absolute;
+  background-size: cover;
+  left: 0px;
+}
+
+/* @media screen and (min-width: 576px) {
+  .nav-list {
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo {
+    text-align: left;
+  }
+  .nav-list {
+    text-align: right;
+  }
+} */
