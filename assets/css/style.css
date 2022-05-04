@@ -1,0 +1,11 @@
+:root{
+  --accent-color: #34537a00;
+  --bg-color: #65C466;
+  --light-color: #FFFFFF;
+  --dark-color: #243246;
+  --text-color: #414141;
+  --row-visible-count: 2;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
