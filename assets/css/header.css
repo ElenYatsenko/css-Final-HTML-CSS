@@ -26,6 +26,22 @@
   background-size: 36px;
 }
 
+.btn-header {
+  box-sizing: border-box;
+  border: 3px solid var(--light-color);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 1em 2rem;
+  margin: 0 2em;
+}
+
+.right-panel-person {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/person35.svg);
+  background-size: 35px;
+}
+
 .right-panel-info {
   display: none;
 }
@@ -35,12 +51,27 @@
 }
 
 .right-panel-info-tel {
+  position: relative;
+
   line-height: 39px;
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 2px;
 }
-
+.right-panel-info-tel::before {
+  content: url(../images/tel.png);
+  position: absolute;
+  box-sizing: content-box;
+  left: -42.25%;
+  right: 56.79%;
+  top: -0.97%;
+  bottom: 98.68%;
+  transform: rotate(9.93deg);
+  /* width: 35px; */
+  /* height: 35px; */
+  /* background: url(../images/tel.png); */
+  margin-right: 18px;
+}
 @media screen and (min-width: 576px) {
   .right-panel-btn {
     width: 49px;
@@ -59,19 +90,5 @@
     justify-content: space-between;
     color: var(--light-color);
   }
-  .btn-header {
-    box-sizing: border-box;
-    border: 3px solid var(--light-color);
-    border-radius: 7px;
-    cursor: pointer;
-    padding: 1em 2rem;
-    margin: 0 2em;
-  }
-
-  .right-panel-person {
-    width: 35px;
-    height: 35px;
-    background-image: url(../images/person35.svg);
-    background-size: 35px;
-  }
+  
 }
