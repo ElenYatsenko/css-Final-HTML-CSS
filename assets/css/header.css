@@ -1,3 +1,77 @@
-.navigation{
+.navigation {
   background-color: var(--bg-color);
+  border-radius: 5px;
+}
+
+.main-content {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.shared-header {
+  padding: 1.5em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+
+  color: var(--light-color);
+}
+.right-panel-btn {
+  width: 36px;
+  height: 36px;
+  margin: 1.5em;
+
+  background-image: url(../images/menu36.svg);
+  background-size: 36px;
+}
+
+.right-panel-info {
+  display: none;
+}
+
+.shared-font {
+  font-style: italic;
+}
+
+.right-panel-info-tel {
+  line-height: 39px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 576px) {
+  .right-panel-btn {
+    width: 49px;
+    height: 49px;
+    background-image: url(../images/menu49.svg);
+    background-size: 49px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .right-panel-btn {
+    display: none;
+  }
+  .right-panel-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-color);
+  }
+  .btn-header {
+    box-sizing: border-box;
+    border: 3px solid var(--light-color);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1em 2rem;
+    margin: 0 2em;
+  }
+
+  .right-panel-person {
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/person35.svg);
+    background-size: 35px;
+  }
 }

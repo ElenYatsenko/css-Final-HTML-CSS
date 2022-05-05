@@ -1,11 +1,49 @@
-:root{
+:root {
   --accent-color: #34537a00;
-  --bg-color: #65C466;
-  --light-color: #FFFFFF;
+  --bg-color: #65c466;
+  --light-color: #ffffff;
   --dark-color: #243246;
   --text-color: #414141;
   --row-visible-count: 2;
   font-size: 14px;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: TrajanPro-Regular;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-align-center{
+  text-align: center;
+}
+.text-align-end {
+  text-align: end;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "TrajanPro Bolt";
+  src: url(../fonts/TrajanPro-Bold.woff) format("woff");
+  font-style: bolt;
+}
+
+@font-face {
+  font-family: "TrajanPro Regular";
+  src: url(../fonts/TrajanPro-Regular.woff) format("woff");
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 16px;
+  }
 }
