@@ -1,3 +1,6 @@
+.shared-navigation {
+  display: none;
+}
 .nav-list {
   text-align: center;
   overflow-x: scroll;
@@ -28,16 +31,10 @@
   left: 0px;
 }
 
-/* @media screen and (min-width: 576px) {
-  .nav-list {
-    overflow-x: hidden;
-  }
-}
 @media screen and (min-width: 992px) {
-  .logo {
-    text-align: left;
+  
+  .shared-navigation  {
+    display: inline;
   }
-  .nav-list {
-    text-align: right;
-  }
-} */
+  
+}
