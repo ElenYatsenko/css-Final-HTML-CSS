@@ -50,6 +50,24 @@
   font-style: italic;
 }
 
+.shared-enter {
+  margin-bottom: 1em;
+}
+.shared-img-enter {
+  display: block;
+  padding: 0.7em;
+  /* padding-bottom: 0.7em; */
+}
+.shared-img-enter::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../images/person35.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+}
+
 .right-panel-info-tel {
   line-height: 39px;
   font-weight: 700;
@@ -65,6 +83,7 @@
   width: 22px;
   height: 17px;
 }
+
 @media screen and (min-width: 576px) {
   .right-panel-btn {
     width: 49px;

@@ -18,23 +18,22 @@
 }
 
 .image-menu {
-  position: relative;
+  /* position: relative; */
 }
 
 .image-menu::after {
   content: "";
-  background-image: url(../images/Vector.png);
-  width: 24px;
-  height: 15px;
-  position: absolute;
-  background-size: cover;
-  left: 0px;
+  display: inline-block;
+  background-image: url(../images/vector-menu.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 16px;
+  margin-left: 0.5em;
 }
 
 @media screen and (min-width: 992px) {
-  
-  .shared-navigation  {
+  .shared-navigation {
     display: inline;
   }
-  
 }
