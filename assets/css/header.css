@@ -51,26 +51,19 @@
 }
 
 .right-panel-info-tel {
-  position: relative;
-
   line-height: 39px;
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 2px;
 }
 .right-panel-info-tel::before {
-  content: url(../images/tel.png);
-  position: absolute;
-  box-sizing: content-box;
-  left: -42.25%;
-  right: 56.79%;
-  top: -0.97%;
-  bottom: 98.68%;
-  transform: rotate(-9.93deg);
-  /* width: 35px; */
-  /* height: 35px; */
-  /* background: url(../images/tel.png); */
-  margin-right: 2em;
+  content: "";
+  display: inline-block;
+  background-image: url(../images/tel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  height: 17px;
 }
 @media screen and (min-width: 576px) {
   .right-panel-btn {

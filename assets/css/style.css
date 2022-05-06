@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "TrajanPro";
+  src: url("../fonts/TrajanPro-Bold.woff") format("woff");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "TrajanPro";
+  src: url("../fonts/TrajanPro-Regular.woff") format("woff");
+  font-style: normal;
+}
+
 :root {
   --accent-color: #34537a00;
   --bg-color: #65c466;
@@ -6,7 +18,7 @@
   --text-color: #414141;
   --row-visible-count: 2;
   font-size: 14px;
-  font-family: TrajanPro-Regular;
+  font-family: "TrajanPro";
 }
 
 .text-overflow {
@@ -15,7 +27,7 @@
   text-overflow: ellipsis;
 }
 
-.text-align-center{
+.text-align-center {
   text-align: center;
 }
 .text-align-end {
@@ -23,18 +35,6 @@
 }
 .uppercase {
   text-transform: uppercase;
-}
-
-@font-face {
-  font-family: "TrajanPro Bolt";
-  src: url(../fonts/TrajanPro-Bold.woff) format("woff");
-  font-style: bolt;
-}
-
-@font-face {
-  font-family: "TrajanPro Regular";
-  src: url(../fonts/TrajanPro-Regular.woff) format("woff");
-  font-style: normal;
 }
 
 @media screen and (min-width: 768px) {
