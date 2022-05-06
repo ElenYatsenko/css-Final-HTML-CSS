@@ -17,10 +17,6 @@
   text-transform: uppercase;
 }
 
-.image-menu {
-  /* position: relative; */
-}
-
 .image-menu::after {
   content: "";
   display: inline-block;

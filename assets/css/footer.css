@@ -1,4 +1,18 @@
-.shared-footer {
+.shared-footer-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.shared-footer-style {
   color: var(--light-color);
   background-color: var(--dark-color);
+}
+
+.shared-footer-menu {
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-list-footer {
+  white-space: pre-line;
 }
