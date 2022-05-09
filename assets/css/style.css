@@ -1,13 +1,14 @@
 :root {
   --accent-color: #cbd3dd00;
-  --bg-color: #65c466;
+  --header-text: #65c466;
   --light-color: #ffffff;
   --dark-color: #243246;
   --text-color: #414141;
-  --text-footer-color: #959AA6;
+  --text-footer-color: #959aa6;
   --row-visible-count: 2;
   font-size: 14px;
   font-family: "Mulish";
+  background: #e5e5e5;
 }
 
 .text-overflow {

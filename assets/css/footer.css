@@ -4,7 +4,8 @@
 }
 
 .shared-footer-menu {
-  /* flex-direction: row; */
+  flex-direction: column;
+  justify-content: center;
   column-count: 3;
 }
 
