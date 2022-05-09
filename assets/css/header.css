@@ -17,12 +17,12 @@
   color: var(--light-color);
 }
 .right-panel-btn {
-  width: 36px;
-  height: 36px;
+  width: 49px;
+  height: 49px;
   margin: 1.5em;
 
-  background-image: url(../images/menu36.svg);
-  background-size: 36px;
+  background-image: url(../images/menu49.png);
+  background-size: 49px;
 }
 
 .btn-header {
@@ -45,17 +45,12 @@
   display: none;
 }
 
-.shared-font {
-  font-style: italic;
-}
-
 .shared-enter {
   margin-bottom: 1em;
 }
 .shared-img-enter {
   display: block;
   padding: 0.7em;
-  /* padding-bottom: 0.7em; */
 }
 .shared-img-enter::before {
   content: "";
@@ -83,14 +78,6 @@
   height: 17px;
 }
 
-@media screen and (min-width: 576px) {
-  .right-panel-btn {
-    width: 49px;
-    height: 49px;
-    background-image: url(../images/menu49.png);
-    background-size: 49px;
-  }
-}
 @media screen and (min-width: 992px) {
   .right-panel-btn {
     display: none;

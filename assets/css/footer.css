@@ -1,17 +1,13 @@
 .shared-footer-container {
-  /* display: flex; */
-  /* min-height: 100vh; */
-  margin-top: auto;
-}
-
-.shared-footer-style {
   color: var(--light-color);
   background-color: var(--dark-color);
 }
 
 .shared-footer-menu {
-  /* flex-direction: column; */
-  align-items: center;
-  flex-wrap: wrap;
+  /* flex-direction: row; */
   column-count: 3;
+}
+
+.font-footer {
+  color: var(--text-footer-color);
 }

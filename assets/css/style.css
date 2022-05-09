@@ -4,6 +4,7 @@
   --light-color: #ffffff;
   --dark-color: #243246;
   --text-color: #414141;
+  --text-footer-color: #959AA6;
   --row-visible-count: 2;
   font-size: 14px;
   font-family: "Mulish";
@@ -13,6 +14,10 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.shared-font {
+  font-style: italic;
 }
 
 .text-align-center {
