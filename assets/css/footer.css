@@ -1,6 +1,7 @@
 .shared-footer-container {
-  display: flex;
-  min-height: 100vh;
+  /* display: flex; */
+  /* min-height: 100vh; */
+  margin-top: auto;
 }
 
 .shared-footer-style {
@@ -9,7 +10,8 @@
 }
 
 .shared-footer-menu {
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  flex-wrap: wrap;
+  column-count: 3;
 }
-
