@@ -1,3 +1,15 @@
-.wrapper-main-content * {
+.wrapper-main-content > {
   background: #e5e5e5;
+}
+
+/* --------img------- */
+.main-content-background {
+  display: inline-block;
+  width: 211px;
+  height: 318px;
+  margin: 14px;
+  border-radius: 6px;
+  background-image: url(../images/repair.jfif);
+  background-size: cover;
+  background-position: top;
 }
