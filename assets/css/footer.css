@@ -5,10 +5,11 @@
 }
 
 .shared-footer-menu {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  column-count: 2;
+  column-count: 3;
 }
 
 .font-footer {

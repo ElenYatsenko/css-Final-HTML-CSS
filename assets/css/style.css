@@ -8,7 +8,6 @@
   --row-visible-count: 2;
   font-size: 14px;
   font-family: "Mulish";
-  background: #e5e5e5;
 }
 
 .text-overflow {
@@ -19,6 +18,21 @@
 
 .shared-font {
   font-style: italic;
+}
+.shared-main-header {
+  font-family: "Trajan Pro 3";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: var(--header-text);
+  padding: 1.5em;
+}
+
+.shared-description {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  color: var(--text-color);
 }
 
 .text-align-center {
