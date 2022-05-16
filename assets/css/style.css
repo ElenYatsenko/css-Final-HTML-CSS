@@ -35,6 +35,22 @@
   color: var(--text-color);
 }
 
+.shared-content-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17.63px;
+  line-height: 20.66px;
+  color: var(--light-color);
+}
+
+.shared-content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11.17px;
+  line-height: 13.09px;
+  color: var(--light-color);
+}
+
 .text-align-center {
   text-align: center;
 }

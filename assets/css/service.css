@@ -2,3 +2,23 @@
   padding: 1.5em;
 }
 
+article {
+  text-align: left;
+  position: relative;
+}
+
+article > div {
+  padding: 0.5em;
+  position: absolute;
+  bottom: 0;
+  /* padding-top: 1em; */
+}
+.article-header3 {
+  padding-bottom: 1.5em;
+}
+
+.span-more {
+  display: block;
+  text-align: center;
+  /* margin-top: 1em; */
+}
