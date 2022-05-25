@@ -28,7 +28,7 @@
   margin-left: 0.5em;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .shared-navigation {
     display: block;
     margin: 0 auto;

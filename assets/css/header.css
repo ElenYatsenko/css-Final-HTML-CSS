@@ -78,7 +78,7 @@
   height: 17px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .right-panel-btn {
     display: none;
   }
