@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/navigation-menu.css" />
     <link rel="stylesheet" href="./assets/css/service.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/scroll.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
   </head>
   <body>
@@ -43,8 +44,9 @@
           </div>
         </div>
       </header>
-      <div class="wrapper-main-content">
+      <div class="main-wrapper">
         <nav class="container shared-navigation">
+          <div class="navigation-menu-line"></div>
           <div class="row align-center">
             <ul class="nav-list col-12 col-lg-9 shared-navigation">
               <li class="nav-list-item">
@@ -68,17 +70,50 @@
             </ul>
           </div>
         </nav>
-        <section class="shared-about container text-align-center">
-          <h2 class="shared-main-header text-overflow">
+        <section class="about-shared-content container text-align-center">
+          <h2 class="shared-main-header text-align-left text-overflow">
             Задайте вопрос юристу онлайн
           </h2>
-          <p class="shared-description text-align-center">
+          <p class="shared-description text-align-left">
             Компания специализируется на оказании широкого спектра услуг как для
             корпоративных клиентов так и для частных лиц. Профессионализм и
             ответственность ключевые преимущества нашей компании.
           </p>
+          <div class="about-image-wrapper">
+            <img
+              class="about-image"
+              src="./assets/images/themis.png"
+              alt="themis"
+            />
+          </div>
+          <div class="about-data-user">
+            <input
+              class="about-field about-data-phone"
+              type="tel"
+              placeholder="Введите номер Вашего телефона"
+              name="number"
+            />
+            <input
+              class="about-field about-data-discription"
+              type="text"
+              placeholder="Введите Ваш вопрос..."
+              name="quastion"
+            />
+            <div class="about-data-agree-user">
+              <input class="" type="checkbox" name="agreement" value="agree" />
+              <span class="about-agreement"
+                >Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                конфидециальности</span
+              >
+              <input
+                class="about-submit-user"
+                type="submit"
+                value="Отправить вопрос"
+              />
+            </div>
+          </div>
         </section>
-        <section class="shared-service container text-align-center">
+        <section class="service-shared container text-align-center">
           <h2 class="shared-main-header text-overflow">
             Предоставляемые услуги
           </h2>
@@ -87,46 +122,86 @@
             корпоративных клиентов так и для частных лиц. Профессионализм и
             ответственность ключевые преимущества нашей компании.
           </p>
-          <a class="main-link-background1" href="#"></a>
-          <article class="main-content-background1 shared-content-header">
-            <div>
-              <h3 class="text-overflow article-header3">
-                Строительство зданий
-              </h3>
-              <p class="shared-content article-header3">
-                Осуществляется от имени и в интересах лиц, участвующих в деле:
-                сторон, третьих лиц, заявителей и иных заинтересованных лиц.
-              </p>
-              <span class="text-overflow shared-content span-more"
-                >Подробнее</span
-              >
+          <div class="service-arrow">
+            <a href="#"
+              ><img
+                class="service-pointer-left"
+                src="./assets/images/arrow left.png"
+                alt="scroll-pointer-left"
+            /></a>
+            <article class="scroll-content-left shared-content-header">
+              <div>
+                <img
+                  class="scroll-image-left"
+                  src="./assets/images/english.jfif"
+                  alt="english"
+                />
+                <h3 class="text-overflow article-header3">
+                  Строительство зданий
+                </h3>
+                <p class="shared-content article-header3">
+                  Осуществляется от имени и в интересах лиц, участвующих в деле:
+                  сторон, третьих лиц, заявителей и иных заинтересованных лиц.
+                </p>
+                <span class="text-overflow shared-content span-more"
+                  >Подробнее</span
+                >
+              </div>
+            </article>
+            <article class="scroll-content-center shared-content-header">
+              <div class="scroll-block-center">
+                <img
+                  class="scroll-image-center"
+                  src="./assets/images/repair.jfif"
+                  alt="builders"
+                />
+                <div class="scroll-img-cntr-content">
+                  <h3 class="text-overflow article-header3">
+                    Ремонт оборудования
+                  </h3>
+                  <p class="shared-content article-header3">
+                    Частичная или полная передача работ по поддержке,
+                    обслуживанию и модернизации ИТ-инфраструктуры в руки
+                    компаний.
+                  </p>
+                  <span class="text-overflow shared-content span-more"
+                    >Подробнее</span
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="scroll-content-right shared-content-header">
+              <div>
+                <img
+                  class="scroll-image-right"
+                  src="./assets/images/english.jfif"
+                  alt="english"
+                />
+                <h3 class="text-overflow article-header3">Курсы английского</h3>
+                <p class="shared-content article-header3">
+                  Проверка финансово-экономической деятельности организации,
+                  проводимая аудитором.
+                </p>
+                <span class="text-overflow shared-content span-more"
+                  >Подробнее</span
+                >
+              </div>
+            </article>
+            <a href="#"
+              ><img
+                class="service-pointer-right"
+                src="./assets/images/arrow rigth.png"
+                alt="pointer-right"
+            /></a>
+            <div class="service-transition-content">
+              <button class="service-direction"></button
+              ><button class="service-direction"></button
+              ><button class="service-direction"></button
+              ><button class="service-direction"></button
+              ><button class="service-direction"></button
+              ><button class="service-direction"></button>
             </div>
-          </article>
-          <article class="main-content-background2 shared-content-header">
-            <div>
-              <h3 class="text-overflow article-header3">Ремонт оборудования</h3>
-              <p class="shared-content article-header3">
-                Частичная или полная передача работ по поддержке, обслуживанию и
-                модернизации ИТ-инфраструктуры в руки компаний.
-              </p>
-              <span class="text-overflow shared-content span-more"
-                >Подробнее</span
-              >
-            </div>
-          </article>
-          <article class="main-content-background3 shared-content-header">
-            <div>
-              <h3 class="text-overflow article-header3">Курсы английского</h3>
-              <p class="shared-content article-header3">
-                Проверка финансово-экономической деятельности организации,
-                проводимая аудитором.
-              </p>
-              <span class="text-overflow shared-content span-more"
-                >Подробнее</span
-              >
-            </div>
-          </article>
-          <a class="main-link-background2" href="#"></a>
+          </div>
         </section>
       </div>
     </div>
