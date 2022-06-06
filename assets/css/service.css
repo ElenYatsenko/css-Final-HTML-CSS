@@ -1,7 +1,10 @@
-.shared-service {
+.service-shared {
   padding: 1.5em;
 }
 
+.service-arrow {
+  position: relative;
+}
 article {
   text-align: left;
   position: relative;
@@ -15,11 +18,87 @@ article > div {
 }
 .article-header3 {
   padding-bottom: 1.5em;
+  box-sizing: border-box;
 }
 
 .span-more {
   display: block;
   text-align: center;
-  /* margin-top: 1em; */
+}
+.service-pointer-left,
+.service-pointer-right {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 0;
+  transform: translateY(2em);
+}
+.service-pointer-left {
+  left: 40%;
 }
 
+.service-pointer-right {
+  right: 40%;
+  /* transform: translateY(2em); */
+}
+.service-transition-content {
+  padding: 1rem;
+}
+.service-direction {
+  width: 27px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #e8e2d5;
+  margin-left: 0.5rem;
+}
+.service-direction:hover {
+  background-color: #65c466;
+}
+
+@media screen and (min-width: 768px) {
+  .service-pointer-left,
+  .service-pointer-right {
+    top: 50%;
+  }
+  .service-pointer-left {
+    left: -5%;
+  }
+
+  .service-pointer-right {
+    right: -5%;
+  }
+  .service-direction {
+    width: 4%;
+  }
+ 
+}
+@media screen and (min-width: 1024px) {
+  .service-pointer-left,
+  .service-pointer-right {
+    width: 33px;
+    height: 33px;
+  }
+  .service-pointer-left {
+    left: 0;
+  }
+
+  .service-pointer-right {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .service-pointer-left,
+  .service-pointer-right {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .service-pointer-left,
+  .service-pointer-right {
+    width: 57px;
+    height: 57px;
+  }
+}

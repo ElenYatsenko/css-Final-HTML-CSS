@@ -24,7 +24,8 @@
   font-weight: 400;
   font-size: 1.5em;
   color: var(--header-text);
-  padding: 1.5em;
+  padding: 1.5em 0;
+
 }
 
 .shared-description {
@@ -57,6 +58,9 @@
 .text-align-end {
   text-align: end;
 }
+.text-align-left {
+  text-align: left;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -67,8 +71,11 @@
   min-height: 100vh;
 }
 
-.wrapper-main-content {
+.main-wrapper {
   flex-grow: 1;
+}
+.main-wrapper > {
+  background: #e5e5e5;
 }
 
 @media screen and (min-width: 768px) {

@@ -28,6 +28,11 @@
   margin-left: 0.5em;
 }
 
+.navigation-menu-line {
+  border-bottom: 1.5px solid #c4c4c4;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
 @media screen and (min-width: 1024px) {
   .shared-navigation {
     display: block;
